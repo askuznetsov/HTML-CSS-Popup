@@ -2,11 +2,6 @@
 
 ![html-css-popup](./img/html-css-popup.gif)
 
-[![MIT Licensed][icon-mit]][license]
-[![Awesome][icon-awesome]][awesome]
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Telegram][icon-chat]][chat]
-
 # HTML і CSS практика: Hooli-style Popup
 
 > **Hooli** є фіктивною корпорацією від
@@ -24,7 +19,7 @@
 - підтримка веббраузера: лише Chrome (використовуйте найновіші фічі)
 - очікується, що попап матиме три стани залежно від дій користувача:
   - початковий стан: попап не видно
-  - після натискання на кнопку ![popup-button](../img/popup-button.png)
+  - після натискання на кнопку 'popup-button'
     попап стає видимим або прихованим, якщо воно вже відкрите
   - натисніть кнопку "More", щоб додати ще від 3 до 10 іконок і
     робить вміст попапу доступним для скролу
