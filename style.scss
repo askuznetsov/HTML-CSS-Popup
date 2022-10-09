@@ -97,6 +97,9 @@ body {
       display: block;
       text-align: center;
       transition: all 0.3s ease-out;
+      border: 2px solid transparent;
+      padding: 3px;
+      border-radius: 10px;
 
       &__image {
         align-self: center;
@@ -109,8 +112,6 @@ body {
       &:hover,
       &:active {
         border: $border-main;
-        padding: 3px;
-        border-radius: 10px;
         outline: transparent;
       }
     }

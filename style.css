@@ -82,6 +82,9 @@ body {
   display: block;
   text-align: center;
   transition: all 0.3s ease-out;
+  border: 2px solid transparent;
+  padding: 3px;
+  border-radius: 10px;
 }
 .menu__item__link__image {
   align-self: center;
@@ -91,8 +94,6 @@ body {
 }
 .menu__item__link:focus, .menu__item__link:hover, .menu__item__link:active {
   border: 2px solid royalblue;
-  padding: 3px;
-  border-radius: 10px;
   outline: transparent;
 }
 .menu__item__text {
