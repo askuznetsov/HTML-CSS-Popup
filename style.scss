@@ -44,16 +44,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .header {
-    &__nav {
-      &__list {
-        justify-content: flex-start;
-      }
-    }
-  }
-}
-
 .title {
   font-size: 24px;
   line-height: 14px;
@@ -139,12 +129,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 995px) {
-  .popup-svg {
-    order: 1;
-  }
-}
-
 .additional {
   margin: 24px 0;
 }
@@ -216,10 +200,28 @@ body {
   display: inline-block;
 }
 
+// RESPONSIVE
+
 @media only screen and (max-width: 500px) {
   .menu {
     &__item {
       width: 55%;
     }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    &__nav {
+      &__list {
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  .popup-svg {
+    order: 1;
   }
 }

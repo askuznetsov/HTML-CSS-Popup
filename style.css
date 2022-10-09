@@ -36,11 +36,6 @@ body {
   height: 100%;
 }
 
-@media only screen and (max-width: 1200px) {
-  .header__nav__list {
-    justify-content: flex-start;
-  }
-}
 .title {
   font-size: 24px;
   line-height: 14px;
@@ -116,11 +111,6 @@ body {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 995px) {
-  .popup-svg {
-    order: 1;
-  }
-}
 .additional {
   margin: 24px 0;
 }
@@ -191,5 +181,15 @@ body {
 @media only screen and (max-width: 500px) {
   .menu__item {
     width: 55%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header__nav__list {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .popup-svg {
+    order: 1;
   }
 }/*# sourceMappingURL=style.css.map */
