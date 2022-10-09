@@ -146,14 +146,7 @@ body {
   display: none;
 }
 
-#more__checkbox:focus + .more__checkbox__label {
-  border: 2px solid royalblue;
-  padding: 3px;
-  border-radius: 10px;
-  outline: transparent;
-  transition: all 0.3s ease-out;
-}
-
+#more__checkbox:focus + .more__checkbox__label,
 .more__checkbox__label:focus {
   border: 2px solid royalblue;
   padding: 3px;
