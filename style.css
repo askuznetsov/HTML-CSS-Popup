@@ -85,9 +85,7 @@ body {
   border-radius: 10px;
 }
 .menu__item__link__image {
-  align-self: center;
   margin-bottom: 8px;
-  width: auto;
   height: 42px;
 }
 .menu__item__link:focus, .menu__item__link:hover, .menu__item__link:active {
