@@ -29,13 +29,11 @@ body {
   height: 24px;
   margin: 24px;
 }
-.header__nav__list__item:hover {
-  cursor: pointer;
-}
 .header__nav__list__item__image {
   vertical-align: middle;
   padding-bottom: 4px;
   height: inherit;
+  height: 100%;
 }
 
 @media only screen and (max-width: 1200px) {

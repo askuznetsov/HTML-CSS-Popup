@@ -33,14 +33,11 @@ body {
         height: 24px;
         margin: 24px;
 
-        &:hover {
-          cursor: pointer;
-        }
-
         &__image {
           vertical-align: middle;
           padding-bottom: 4px;
           height: inherit;
+          height: 100%;
         }
       }
     }
